@@ -15,7 +15,10 @@ Abstract is a minimalist platform that let you download **free wallpapers**. The
 
 *Find more information in the `package.json` file*
 
-![abstract-wallpapers preview](abstract-wallpapers_preview.JPG "abstract-wallpaper preview")
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/src/assets/screenshots/abstract_dark_preview.JPG">
+  <img alt="Pokedesk homepage preview in light color mode and dark color mode." src="/src/assets/screenshots/abstract_light_preview.JPG">
+</picture>
 
 ### Visit Abstract
 
