@@ -15,7 +15,7 @@ const getWallpaper = useWallpaperStore();
             :alt="`${wallpaper.name} wallpaper`" 
             />
 
-            <div class="flex w-full justify-between items-center my-2">
+            <div class="flex justify-between items-center my-2 mx-4 sm:mx-0">
                 <p class="font-display text-2xl">{{ wallpaper.name }}</p>
 
                 <a :href="wallpaper.src" class="download-btn" download>

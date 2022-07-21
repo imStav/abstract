@@ -21,7 +21,7 @@
     }
 
     .wallpaper-styles {
-        @apply w-72 hover:shadow-2xl hover:-translate-y-2 duration-500;
+        @apply sm:w-72 hover:shadow-2xl hover:-translate-y-2 duration-500;
     }
 
     .download-btn {
