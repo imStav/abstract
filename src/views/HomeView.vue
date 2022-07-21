@@ -24,7 +24,7 @@ import { RouterLink } from "vue-router";
       <div>
         <img
           src="/assets/sunrise.jpg"
-          class="w-96 h-96 shadow-2xl blur-3xl xl:blur-none"
+          class="w-96 h-96 shadow-2xl blur-3xl"
           alt=""
         />
       </div>

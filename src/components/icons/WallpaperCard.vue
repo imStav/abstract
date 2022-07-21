@@ -1,5 +1,5 @@
 <script setup>
-import { useWallpaperStore } from "../../stores/counter";
+import { useWallpaperStore } from "../../stores/wallpapers";
 const getWallpaper = useWallpaperStore();
 </script>
 
