@@ -6,7 +6,7 @@ Abstract is a minimalist platform that let you download **free wallpapers**. The
 
 ### Technologies
 
-* 📄 Vue.js (3.2.37)
+* 🔭 Vue.js (3.2.37)
 * ⚡ Vite (3.0.1)
 * 🍍 Pinia (2.0.16)
 * 🌈 Tailwind CSS (3.1.6)
