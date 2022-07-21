@@ -1,4 +1,4 @@
-# Abstract - NEW VERSION!
+# Abstract - NEW VERSION! [![Netlify Status](https://api.netlify.com/api/v1/badges/ecfd410b-7d81-43ac-a67d-cc83f85055ec/deploy-status)](https://app.netlify.com/sites/abstract-wallpapers/deploys)
 
 ## The project
 
