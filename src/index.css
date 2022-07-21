@@ -4,27 +4,41 @@
 
 @layer components {
     body {
-        @apply bg-slate-200 dark:bg-black dark:text-slate-300;
+        @apply bg-gradient-to-b from-slate-300 via-white dark:bg-gradient-to-b dark:from-slate-900 dark:to-black dark:text-slate-300;
     }
 
     /***HomeView***/
-    .homeview {
+    .home-view {
         @apply h-screen w-screen flex justify-center items-center;
     }
 
+    /***GalleryView***/
+    .gallery-view {
+        @apply flex flex-col min-h-screen justify-center items-center mb-24 sm:my-0;
+    }
+
     .text-gradient {
-        @apply bg-clip-text text-transparent bg-gradient-to-r from-slate-300 via-slate-500 to-slate-300;
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-slate-300 via-slate-600 to-slate-300;
     }
 
     .to-gallery {
-        @apply fixed mt-8 border border-black dark:border-white px-4 py-2 text-2xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
+        @apply fixed mt-8 rounded-full border border-black dark:border-white px-8 py-2 text-2xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
     }
 
     .wallpaper-styles {
-        @apply sm:w-72 hover:shadow-2xl hover:-translate-y-2 duration-500;
+        @apply sm:w-80 hover:shadow-2xl hover:-translate-y-2 duration-500;
+    }
+
+    .wallpaper-description {
+        @apply flex justify-between items-center my-2 mx-4 sm:mx-0;
     }
 
     .download-btn {
-        @apply border px-4 dark:hover:bg-white dark:hover:text-black duration-500;
+        @apply rounded-full border border-current hover:border-transparent px-4 py-1 sm:bg-transparent hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black duration-500;
+    }
+
+    .download-btn:hover i {
+        transition-duration: .5s;
+        transform: rotate(-90deg);
     }
 }
