@@ -11,10 +11,10 @@
     .navbar {
         @apply flex justify-center w-screen py-4 backdrop-blur-xl saturate-150;
     }
-    
+
     /**RouterLink stlyes**/
     .nav-link {
-        @apply text-xl font-display mx-4 hover:opacity-60 duration-700;
+        @apply text-base font-display mx-4 hover:opacity-60 duration-700;
     }
 
     /***HomeView***/
@@ -24,7 +24,7 @@
 
     /**CTA btn**/
     .to-gallery {
-        @apply fixed mt-8 rounded-full border border-black dark:border-white px-8 py-2 text-2xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
+        @apply fixed mt-8 rounded-md border-2 border-black dark:border-white px-8 py-2 text-xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
     }
 
     /***GalleryView***/
@@ -49,7 +49,7 @@
     }
 
     .download-btn {
-        @apply rounded-full border border-current hover:border-transparent px-4 py-1 sm:bg-transparent hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black duration-500;
+        @apply rounded-md px-4 py-1 border border-black dark:border-white hover:opacity-50 duration-500;
     }
 
     .download-btn:hover i {

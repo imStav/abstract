@@ -3,8 +3,8 @@
     class="flex flex-col min-h-screen w-3/4 sm:w-1/2 justify-center items-center mx-auto"
   >
     <div>
-      <h2 class="text-gradient text-5xl font-display">
-        About Ab<span class="font-glitch">stra</span>ct
+      <h2 class="font-display text-4xl sm:text-5xl">
+        About Abstract
       </h2>
 
       <p class="text-lg my-8">
