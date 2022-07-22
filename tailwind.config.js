@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
-      display: ["DM Serif Display", "serif"],
-      glitch: ["Rubik Glitch", "cursive"],
+      display: ["Krona One", "sans-serif"],
     },
     extend: {},
   },
