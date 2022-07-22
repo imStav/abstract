@@ -4,7 +4,7 @@ const getWallpaper = useWallpaperStore();
 </script>
 
 <template>
-  <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+  <div class="wallpaper-grid">
     <div v-for="wallpaper in getWallpaper.wallpapers" :key="wallpaper.name">
       <img
         :src="wallpaper.src"

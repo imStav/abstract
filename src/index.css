@@ -25,6 +25,10 @@
         @apply fixed mt-8 rounded-full border border-black dark:border-white px-8 py-2 text-2xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
     }
 
+    .wallpaper-grid {
+        @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 sm:my-24 sm:px-4;
+    }
+
     .wallpaper-styles {
         @apply sm:rounded-md sm:w-80 hover:shadow-2xl hover:-translate-y-2 duration-500;
     }
