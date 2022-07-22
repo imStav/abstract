@@ -17,7 +17,7 @@ Abstract is a minimalist platform that let you download **free wallpapers**. The
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/src/assets/screenshots/abstract_dark_preview.JPG">
-  <img alt="Abstract's homepage preview in light and dark color mode." src="/src/assets/screenshots/abstract_preview.JPG">
+  <img alt="Abstract's home page preview in light and dark color mode." src="/src/assets/screenshots/abstract_preview.JPG">
 </picture>
 
 ### Visit Abstract
