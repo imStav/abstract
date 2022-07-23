@@ -6,11 +6,11 @@ import { RouterLink } from "vue-router";
   <main class="home-view">
     <div class="flex items-center px-6 sm:px-24">
       <div class="-mr-32 z-10 -mt-8">
-        <h1 class="font-display text-4xl sm:text-5xl">
+        <h1 class="heading">
           Abstract wallpap<span class="text-white">ers</span>
         </h1>
 
-        <p class="font-sans text-xl tracking-widest opacity-30">
+        <p class="catchline">
           Free. Personal & commercial use.
         </p>
 

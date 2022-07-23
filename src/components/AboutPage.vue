@@ -1,9 +1,9 @@
 <template>
   <div
-    class="flex flex-col min-h-screen w-3/4 sm:w-1/2 justify-center items-center mx-auto"
+    class="about-layout"
   >
     <div>
-      <h2 class="font-display text-4xl sm:text-5xl">
+      <h2 class="heading">
         About Abstract
       </h2>
 

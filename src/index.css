@@ -17,9 +17,18 @@
         @apply text-base font-display mx-4 hover:opacity-60 duration-700;
     }
 
+    /***Heading styles***/
+    .heading {
+        @apply font-display text-4xl sm:text-5xl;
+    }
+
     /***HomeView***/
     .home-view {
         @apply h-screen w-screen flex justify-center items-center;
+    }
+
+    .catchline {
+        @apply font-sans text-xl tracking-widest opacity-30 mt-2;
     }
 
     /**CTA btn**/
@@ -55,5 +64,10 @@
     .download-btn:hover i {
         transition-duration: .5s;
         transform: rotate(-90deg);
+    }
+
+    /**AboutPage**/
+    .about-layout {
+        @apply flex flex-col min-h-screen w-3/4 sm:w-1/2 justify-center items-center mx-auto;
     }
 }
