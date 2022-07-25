@@ -50,7 +50,7 @@
     }
 
     .wallpaper-styles {
-        @apply sm:rounded-md sm:w-80 hover:shadow-2xl hover:-translate-y-2 duration-500;
+        @apply sm:rounded-md sm:w-80 hover:shadow-2xl hover:-translate-y-2  duration-500;
     }
 
     .wallpaper-description {

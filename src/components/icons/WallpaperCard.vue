@@ -6,11 +6,13 @@ const getWallpaper = useWallpaperStore();
 <template>
   <div class="wallpaper-grid">
     <div v-for="wallpaper in getWallpaper.wallpapers" :key="wallpaper.name">
+      <a :href="wallpaper.src" class="cursor-zoom-in">
       <img
         :src="wallpaper.src"
         class="wallpaper-styles"
         :alt="`${wallpaper.name} wallpaper`"
       />
+      </a>
 
       <div class="wallpaper-description">
         <p class="font-display text-xl">{{ wallpaper.name }}</p>
