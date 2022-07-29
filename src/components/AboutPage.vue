@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="about-layout"
-  >
+  <div class="about-layout">
     <div>
       <h2 class="heading">
         About Abstract

@@ -4,7 +4,7 @@ const getWallpaper = useWallpaperStore();
 </script>
 
 <template>
-  <div class="wallpaper-grid">
+  <div class="wallpaper-grid" v-motion-fade>
     <div v-for="wallpaper in getWallpaper.wallpapers" :key="wallpaper.name">
       <a :href="wallpaper.src" class="cursor-zoom-in">
       <img

@@ -4,7 +4,7 @@ import { RouterLink } from "vue-router";
 
 <template>
   <main class="home-view">
-    <div class="flex items-center px-6 sm:px-24">
+    <div class="flex items-center px-6 sm:px-24" v-motion-fade>
       <div class="-mr-32 z-10 -mt-8">
         <h1 class="heading">
           Abstract wallpap<span class="text-white">ers</span>
