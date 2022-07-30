@@ -18,7 +18,7 @@ import { RouterLink } from 'vue-router';
       The website is subject to changes and will nearly receive UI updates.
     </p>
 
-    <RouterLink to="/gallery" class="back-to-gallery">
+    <RouterLink to="/gallery" class="w-fit to-gallery">
       Back to gallery
     </RouterLink>
   </div>
