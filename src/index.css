@@ -33,11 +33,7 @@
 
     /**CTA btn**/
     .to-gallery {
-        @apply fixed mt-8 rounded-md border-2 border-black dark:border-white px-8 py-2 text-xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
-    }
-
-    .back-to-gallery {
-        @apply mt-8 rounded-md border-2 w-fit border-black dark:border-white px-8 py-2 text-xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
+        @apply mt-8 rounded-md border-2 border-black dark:border-white px-8 py-2 text-xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
     }
 
     /***GalleryView***/

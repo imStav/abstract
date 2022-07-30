@@ -14,7 +14,7 @@ import { RouterLink } from "vue-router";
           Free. Personal & commercial use.
         </p>
 
-        <RouterLink to="/gallery" class="to-gallery">Browse</RouterLink>
+        <RouterLink to="/gallery" class="fixed to-gallery">Browse</RouterLink>
       </div>
 
       <div>
