@@ -41,10 +41,6 @@
         @apply flex flex-col min-h-screen justify-center items-center mb-24 sm:my-0;
     }
 
-    .text-gradient {
-        @apply bg-clip-text text-transparent bg-gradient-to-r from-slate-300 via-slate-600 to-slate-300;
-    }
-
     .wallpaper-grid {
         @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 sm:my-24 sm:px-4;
     }
