@@ -36,6 +36,10 @@
         @apply fixed mt-8 rounded-md border-2 border-black dark:border-white px-8 py-2 text-xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
     }
 
+    .back-to-gallery {
+        @apply mt-8 rounded-md border-2 w-fit border-black dark:border-white px-8 py-2 text-xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
+    }
+
     /***GalleryView***/
     .gallery-view {
         @apply flex flex-col min-h-screen justify-center items-center mb-24 sm:my-0;
@@ -68,6 +72,6 @@
 
     /**AboutPage**/
     .about-layout {
-        @apply flex flex-col min-h-screen w-3/4 sm:w-1/2 justify-center items-center mx-auto;
+        @apply flex flex-col min-h-screen w-3/4 sm:w-1/2 justify-center mx-auto;
     }
 }
