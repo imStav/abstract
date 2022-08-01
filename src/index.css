@@ -71,7 +71,7 @@
 @media (prefers-color-scheme: light) {
     @supports not (backdrop-filter: blur()) {
         .navbar {
-            background-image: linear-gradient(to top, #ffffffe0, transparent);
+            background-color: #ffffffe0;
         }
     }
 }
@@ -79,7 +79,7 @@
 @media (prefers-color-scheme: dark) {
     @supports not (backdrop-filter: blur()) {
         .navbar {
-            background-image: linear-gradient(to top, #000000e0, transparent);
+            background-color: #000000e0;
         }
     }
 }
