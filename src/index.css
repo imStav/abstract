@@ -67,3 +67,19 @@
         @apply flex flex-col min-h-screen w-3/4 sm:w-1/2 justify-center mx-auto;
     }
 }
+
+@media (prefers-color-scheme: light) {
+    @supports not (backdrop-filter: blur()) {
+        .navbar {
+            background-image: linear-gradient(to top, #ffffffe0, transparent);
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    @supports not (backdrop-filter: blur()) {
+        .navbar {
+            background-image: linear-gradient(to top, #000000e0, transparent);
+        }
+    }
+}
