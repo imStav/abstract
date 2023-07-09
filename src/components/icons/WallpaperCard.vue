@@ -15,10 +15,9 @@ const getWallpaper = useWallpaperStore();
       </a>
 
       <div class="wallpaper-description">
-        <p class="font-display text-xl">{{ wallpaper.name }}</p>
+        <p class="font-display text-xl px-4">{{ wallpaper.name }}</p>
 
-        <a :href="wallpaper.src" class="download-btn" download>
-          <i class="fa-solid fa-circle-chevron-down text-sm mr-2"></i> Download
+        <a :href="wallpaper.src" class="download-btn" download> Download
         </a>
       </div>
     </div>

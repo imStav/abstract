@@ -2,14 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('assets/fonts/Satoshi-Variable.woff2') format('woff2');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay-Variable';
+    src: url('assets/fonts/ClashDisplay-Variable.woff2') format('woff2');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+}
+
 @layer components {
     body {
-        @apply bg-gradient-to-b from-slate-300 via-white dark:bg-gradient-to-b dark:from-slate-900 dark:to-black dark:text-slate-300;
+        @apply bg-slate-100 dark:bg-black dark:text-slate-400;
     }
 
     /***Nav***/
     .navbar {
-        @apply flex justify-center w-screen py-4 backdrop-blur-xl saturate-150;
+        @apply flex justify-center w-fit py-4 backdrop-blur-xl saturate-150;
     }
 
     /**RouterLink stlyes**/
@@ -19,7 +35,7 @@
 
     /***Heading styles***/
     .heading {
-        @apply font-display text-4xl sm:text-5xl;
+        @apply font-display font-semibold text-4xl sm:text-5xl bg-clip-text bg-gradient-to-r from-rose-500 via-fuchsia-500 to-slate-100 text-transparent;
     }
 
     /***HomeView***/
@@ -28,12 +44,12 @@
     }
 
     .catchline {
-        @apply font-sans text-xl tracking-widest opacity-30 mt-2;
+        @apply font-sans text-xl opacity-30;
     }
 
     /**CTA btn**/
     .to-gallery {
-        @apply mt-8 rounded-md border-2 border-black dark:border-white px-8 py-2 text-xl hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white duration-700;
+        @apply mt-8 border-b border-black dark:border-white py-2 text-xl hover:tracking-widest duration-200;
     }
 
     /***GalleryView***/
@@ -42,24 +58,19 @@
     }
 
     .wallpaper-grid {
-        @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 sm:my-24 sm:px-4;
+        @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:my-24 sm:px-4 gap-8;
     }
 
     .wallpaper-styles {
-        @apply sm:rounded-md sm:w-80 hover:shadow-2xl hover:-translate-y-2  duration-500;
+        @apply sm:w-80 hover:opacity-50 duration-500;
     }
 
     .wallpaper-description {
-        @apply flex justify-between items-center my-2 mx-4 sm:mx-0;
+        @apply flex justify-between items-center mb-2 sm:mx-0 dark:bg-black border-b border-current;
     }
 
     .download-btn {
-        @apply rounded-md px-4 py-1 border border-black dark:border-white hover:opacity-50 duration-500;
-    }
-
-    .download-btn:hover i {
-        transition-duration: .5s;
-        transform: rotate(-90deg);
+        @apply px-4 py-1 duration-500 bg-black dark:hover:bg-slate-400 hover:text-black;
     }
 
     /**AboutPage**/
