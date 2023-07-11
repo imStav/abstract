@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <header class="fixed top-10 right-0 z-50 border border-r-0 border-slate-400/70">
+  <header class="sticky top-10 w-fit mx-auto z-50">
     <nav class="navbar">
       <RouterLink
         to="/"

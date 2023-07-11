@@ -20,12 +20,12 @@
 
 @layer components {
     body {
-        @apply bg-slate-100 dark:bg-black dark:text-slate-400;
+        @apply bg-slate-100 dark:bg-black dark:text-slate-400 overflow-x-hidden;
     }
 
     /***Nav***/
     .navbar {
-        @apply flex justify-center w-fit py-4 backdrop-blur-xl saturate-150;
+        @apply flex py-4 backdrop-blur-xl saturate-150 border border-slate-400/70 rounded-md;
     }
 
     /**RouterLink stlyes**/
@@ -35,34 +35,34 @@
 
     /***Heading styles***/
     .heading {
-        @apply font-display font-semibold text-4xl sm:text-5xl bg-clip-text bg-gradient-to-r from-rose-500 via-fuchsia-500 to-slate-100 text-transparent;
+        @apply font-display font-semibold text-4xl sm:text-5xl bg-clip-text bg-gradient-to-r from-orange-500 via-rose-500 to-slate-100 text-transparent w-fit;
     }
 
     /***HomeView***/
     .home-view {
-        @apply h-screen w-screen flex justify-center items-center;
+        @apply h-auto w-screen flex justify-center items-center;
     }
 
     .catchline {
-        @apply font-sans text-xl opacity-30;
+        @apply font-sans text-xl opacity-80;
     }
 
     /**CTA btn**/
     .to-gallery {
-        @apply mt-8 border-b border-black dark:border-white py-2 text-xl hover:tracking-widest duration-200;
+        @apply my-8 border-b border-black dark:border-white py-2 text-xl hover:tracking-widest duration-200;
     }
 
     /***GalleryView***/
     .gallery-view {
-        @apply flex flex-col min-h-screen justify-center items-center mb-24 sm:my-0;
+        @apply flex flex-col min-h-fit items-center mb-24 sm:my-0;
     }
 
     .wallpaper-grid {
-        @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:my-24 sm:px-4 gap-8;
+        @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:mb-24 sm:px-4 gap-8;
     }
 
     .wallpaper-styles {
-        @apply sm:w-80 hover:opacity-50 duration-500;
+        @apply sm:w-80 hover:opacity-50 duration-500 sm:rounded-md;
     }
 
     .wallpaper-description {
@@ -75,7 +75,7 @@
 
     /**AboutPage**/
     .about-layout {
-        @apply flex flex-col min-h-screen w-3/4 sm:w-1/2 justify-center mx-auto;
+        @apply flex flex-col w-3/4 sm:w-1/2 my-24 justify-center mx-auto;
     }
 }
 

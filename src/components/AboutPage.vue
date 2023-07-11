@@ -4,6 +4,10 @@ import { RouterLink } from 'vue-router';
 
 <template>
   <div class="about-layout">
+    <RouterLink to="/gallery" class="w-fit to-gallery">
+      Back to gallery
+    </RouterLink>
+    
     <h2 class="heading">
       About Abstract
     </h2>
@@ -17,9 +21,5 @@ import { RouterLink } from 'vue-router';
     <p class="text-lg">
       The website is subject to changes and will nearly receive UI updates.
     </p>
-
-    <RouterLink to="/gallery" class="w-fit to-gallery">
-      Back to gallery
-    </RouterLink>
   </div>
 </template>

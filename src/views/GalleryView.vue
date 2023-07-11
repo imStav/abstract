@@ -4,6 +4,11 @@ import WallpaperCard from "../components/icons/WallpaperCard.vue";
 
 <template>
   <section class="gallery gallery-view">
+    <div class="mt-24 mb-8">
+      <h2 class="heading">Gallery</h2>
+      <p class="catchline">Find your next wallpaper</p>
+    </div>
+
     <WallpaperCard />
   </section>
 </template>
