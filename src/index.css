@@ -54,23 +54,27 @@
 
     /***GalleryView***/
     .gallery-view {
-        @apply flex flex-col min-h-fit items-center mb-24 sm:my-0;
+        @apply flex flex-col min-h-fit mb-24 sm:my-0  w-4/5 xl:w-[70%] 2xl:w-1/2 mx-auto items-center;
     }
 
     .wallpaper-grid {
         @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:mb-24 sm:px-4 gap-8;
     }
 
+    .wallpaper-card {
+        @apply border dark:border-slate-500/60 rounded-md;
+    }
+
     .wallpaper-styles {
-        @apply sm:w-80 hover:opacity-50 duration-500 sm:rounded-md;
+        @apply sm:w-80 hover:opacity-50 duration-500 rounded-t;
     }
 
     .wallpaper-description {
-        @apply flex justify-between items-center mb-2 sm:mx-0 dark:bg-black border-b border-current;
+        @apply flex justify-between items-center my-2 sm:mx-0;
     }
 
     .download-btn {
-        @apply px-4 py-1 duration-500 bg-black dark:hover:bg-slate-400 hover:text-black;
+        @apply px-4 py-0.5 border duration-500 dark:bg-slate-500/30 dark:text-slate-400 dark:border-slate-500/60 rounded-full mx-2;
     }
 
     /**AboutPage**/
