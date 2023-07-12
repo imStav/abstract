@@ -5,7 +5,7 @@ const getWallpaper = useWallpaperStore();
 
 <template>
   <div class="wallpaper-grid" v-motion-fade>
-    <div v-for="wallpaper in getWallpaper.wallpapers" :key="wallpaper.name">
+    <div v-for="wallpaper in getWallpaper.wallpapers" :key="wallpaper.name" class="wallpaper-card">
       <a :href="wallpaper.src" class="cursor-zoom-in">
       <img
         :src="wallpaper.src"
@@ -15,10 +15,9 @@ const getWallpaper = useWallpaperStore();
       </a>
 
       <div class="wallpaper-description">
-        <p class="font-display text-xl">{{ wallpaper.name }}</p>
+        <p class="font-display text-xl px-4">{{ wallpaper.name }}</p>
 
-        <a :href="wallpaper.src" class="download-btn" download>
-          <i class="fa-solid fa-circle-chevron-down text-sm mr-2"></i> Download
+        <a :href="wallpaper.src" class="download-btn" download> Download
         </a>
       </div>
     </div>

@@ -3,13 +3,19 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <header class="fixed bottom-0 z-50">
+  <header class="sticky top-10 w-fit mx-auto z-50">
     <nav class="navbar">
       <RouterLink
         to="/"
         class="nav-link"
-        >Abstract
+        >A.
       </RouterLink>
+
+      <RouterLink
+        to="/gallery"
+        class="nav-link"
+        >Gallery</RouterLink
+      >
       
       <RouterLink
         to="/about"
