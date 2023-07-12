@@ -62,7 +62,7 @@
     }
 
     .wallpaper-card {
-        @apply border dark:border-slate-500/60 rounded-md;
+        @apply border border-slate-400/30 dark:border-slate-500/60 rounded-md;
     }
 
     .wallpaper-styles {
@@ -74,7 +74,7 @@
     }
 
     .download-btn {
-        @apply px-4 py-0.5 border duration-500 dark:bg-slate-500/30 dark:text-slate-400 dark:border-slate-500/60 rounded-full mx-2;
+        @apply px-4 py-0.5 border duration-500 bg-slate-400/20 border-slate-400/30 dark:bg-slate-500/30 dark:text-slate-400 dark:border-slate-500/60 rounded-full mx-2;
     }
 
     /**AboutPage**/
