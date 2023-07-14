@@ -3,25 +3,13 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <main class="home-view">
-    <div class="flex items-center px-6 sm:px-24" v-motion-fade>
-      <div class="-mr-32 z-10 -mt-8">
-        <h1 class="heading">Abstract wallpapers</h1>
+  <main class="home-view" v-motion-fade>
+    <h1 class="heading">Abstract wallpapers</h1>
 
-        <p class="catchline">
-          Free. Personal & commercial use.
-        </p>
+      <p class="catchline">
+        Free for personal & commercial use
+      </p>
 
-        <RouterLink to="/gallery" class="fixed to-gallery">Browse</RouterLink>
-      </div>
-
-      <div>
-        <img
-          src="/assets/sunrise.jpg"
-          class="w-96 h-96 shadow-2xl blur-3xl"
-          alt="A blurred picture"
-        />
-      </div>
-    </div>
+      <RouterLink to="/gallery" class="to-gallery">Browse</RouterLink>
   </main>
 </template>

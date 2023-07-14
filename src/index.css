@@ -35,12 +35,12 @@
 
     /***Heading styles***/
     .heading {
-        @apply font-sans font-black text-4xl sm:text-5xl bg-clip-text bg-gradient-to-r from-orange-500 via-rose-500 to-slate-100 text-transparent w-fit;
+        @apply font-display font-black text-4xl sm:text-5xl text-black dark:text-white w-fit;
     }
 
     /***HomeView***/
     .home-view {
-        @apply h-auto w-screen flex justify-center items-center;
+        @apply h-[calc(100vh-5rem)] flex flex-col justify-center items-center text-center;
     }
 
     .catchline {
@@ -49,7 +49,7 @@
 
     /**CTA btn**/
     .to-gallery {
-        @apply my-8 border-b border-black dark:border-white py-2 text-xl hover:tracking-widest duration-200;
+        @apply my-8 sm:opacity-60 sm:hover:opacity-100 border bg-slate-400/20 border-slate-400/30 dark:bg-slate-500/30 dark:text-slate-400 dark:border-slate-500/60 py-2 px-6 rounded-md text-xl font-semibold duration-500;
     }
 
     /***GalleryView***/
@@ -58,7 +58,7 @@
     }
 
     .wallpaper-grid {
-        @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:mb-24 sm:px-4 gap-8;
+        @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 sm:mb-24 gap-8;
     }
 
     .wallpaper-card {
