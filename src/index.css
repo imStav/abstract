@@ -35,7 +35,7 @@
 
     /***Heading styles***/
     .heading {
-        @apply font-display font-semibold text-4xl sm:text-5xl bg-clip-text bg-gradient-to-r from-orange-500 via-rose-500 to-slate-100 text-transparent w-fit;
+        @apply font-sans font-black text-4xl sm:text-5xl bg-clip-text bg-gradient-to-r from-orange-500 via-rose-500 to-slate-100 text-transparent w-fit;
     }
 
     /***HomeView***/
@@ -74,7 +74,7 @@
     }
 
     .download-btn {
-        @apply px-4 py-0.5 border duration-500 bg-slate-400/20 border-slate-400/30 dark:bg-slate-500/30 dark:text-slate-400 dark:border-slate-500/60 rounded-full mx-2;
+        @apply px-4 py-0.5 sm:opacity-60 sm:hover:opacity-100 border duration-500 bg-slate-400/20 border-slate-400/30 dark:bg-slate-500/30 dark:text-slate-400 dark:border-slate-500/60 rounded-full mx-2;
     }
 
     /**AboutPage**/
